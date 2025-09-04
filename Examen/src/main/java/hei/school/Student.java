@@ -4,10 +4,6 @@ import java.time.Instant;
 
 public class Student extends User {
     private final Notes notes;
-
-    public enum Group {
-        K1, K2, K3, K4, K5
-    };
     private final Group group;
     private final Tutor tutor;
 
